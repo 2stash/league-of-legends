@@ -62,13 +62,13 @@ const Login = () => {
           </form>
 
           <div className="social-media">
-            <a href="/" className="btn btn-facebook">
+            <a href="#void" className="btn btn-facebook">
               <i className="fab fa-facebook"></i>
             </a>
-            <a href="/" className="btn btn-google">
+            <a href="#" className="btn btn-google">
               <i className="fab fa-google"></i>
             </a>
-            <a href="/" className="btn btn-apple">
+            <a href="#" className="btn btn-apple">
               <i className="fab fa-apple"></i>
             </a>
           </div>
@@ -94,16 +94,16 @@ const Login = () => {
           </div>
 
           <div className="login-button">
-            <a href="/" className={userInfoEntered ? "" : "login-disabled"}>
+            <a href="#" className={userInfoEntered ? "" : "login-disabled"}>
               <i className="fas fa-arrow-right"></i>
             </a>
           </div>
 
           <div className="login-issues">
-            <a href="/">
+            <a href="#">
               <p>CAN'T SIGN IN</p>
             </a>
-            <a href="/">
+            <a href="#">
               <p>CREATE ACCOUNT</p>
             </a>
           </div>
@@ -123,15 +123,15 @@ const Login = () => {
         <div className="login-grid-column-2">
           <div className="actions">
             <div className="actions-atag dash">
-              <a href="/">-</a>
+              <a href="#">-</a>
             </div>
             <div className="actions-atag">
-              <a href="/">
+              <a href="#">
                 <i className="fas fa-question question"></i>
               </a>
             </div>
             <div className="actions-close">
-              <a href="/">
+              <a href="#">
                 <i className="fas fa-times"></i>
               </a>
             </div>
