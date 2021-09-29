@@ -1,13 +1,5 @@
 @import "utilities";
 
-
-#root {
-    background-color: black;
-    display:flex;
-    justify-content: center;
-    height: 100vh;
-}
-
 .login {
     background-color: #f9f9f9;
 
@@ -309,7 +301,7 @@
                     background-color: red;
                 }
 
-                a{
+                span{
                     color:white;
                     height:100%;
                     width: 100%;
@@ -318,7 +310,7 @@
                     align-items: center;
                 }
 
-                span {
+                .minus {
                     
                     font-size: 22px;
                 }
